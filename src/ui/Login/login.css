@@ -1,0 +1,119 @@
+.login-sec{
+    width: 100%;
+    height: 87vh;
+    background-image: radial-gradient(farthest-side at 50% 50%, rgb(39, 10, 65), rgb(6, 7, 28));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    width: 50%;
+    margin-top: 30px;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px;
+}
+.sing-h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.btn-cont{
+    width: 80%;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10%;
+}
+.fb-btn{
+    padding: 15px 35px;
+    border-radius: 10px;
+    background-color: #3c5a98;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.gg-btn{
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    cursor: pointer;
+
+
+}
+.gg-btn img{
+    margin-right:10px ;
+}
+i{
+    margin-right: 15px;
+    font-size: 30px;
+
+}
+.fb-btn:hover{
+    background-image: radial-gradient(farthest-side at 50% 50%, rgb(39, 10, 65), rgb(6, 7, 28));
+
+}
+.gg-btn:hover{
+    background-image: radial-gradient(farthest-side at 50% 50%, rgb(39, 10, 65), rgb(6, 7, 28));
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 68%;
+    height: 50px;
+    margin-left: 16%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: #f7f7f7;
+    outline: darkgrey;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+label{
+    margin: 5px 16%;
+    font-size: 18px;
+}
+.sing-btn{
+    width: 68%;
+    margin: 30px 16%;
+    border-radius: 10px;
+    padding: 17px;
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.forgot{
+    text-decoration: underline;
+    margin-left: 5px;
+    color: #333333;
+    padding: 3px;
+}
+.verj{
+    text-align: center;
+    margin-top: 10px;
+}
+.sing-btn:hover{
+    background-image: radial-gradient(farthest-side at 50% 50%, rgb(39, 10, 65), rgb(6, 7, 28));
+    color: white;
+}

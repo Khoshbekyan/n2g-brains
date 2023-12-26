@@ -1,0 +1,52 @@
+.courses-div{
+    background: linear-gradient(20deg, rgb(36, 27, 75, 1) 40%, rgb(87, 52, 97) 150%);
+    color: white;
+    padding: 50px 80px;
+}
+.courses-h{
+    font-size: 32px;
+}
+.courses-cont{
+    width: 100%;
+    height:100vh;
+    padding-top: 100px;
+    color: white;
+}
+
+.small-conts {
+    width: 330px !important;
+    border-radius: 25px;
+    border: 1px solid #5c576a;
+    height: 430px;
+    position: relative;
+}
+.small-conts h3{
+    padding: 20px 32px 0px;
+}
+.small-conts p {
+    color: rgba(255, 255, 255, 0.53);
+    padding: 25px 32px;
+    line-height: 25px;
+    height: 280px;
+    border-bottom: 1px solid #5c576a;
+    position: relative; 
+}
+.duration-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 32px;
+
+}
+.apply-btn{
+    width: 100%;
+    display: block;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 20px 32px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
